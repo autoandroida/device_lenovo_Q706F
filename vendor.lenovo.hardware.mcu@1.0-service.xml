@@ -1,0 +1,30 @@
+<manifest version="1.0" type="device">
+<!--
+    <hal format="hidl">
+	<name>vendor.lenovo.hardware.mcu</name>
+	<transport arch="32+64">passthrough</transport>
+	<version>1.0</version>
+	<interface>
+	    <name>IMcu</name>
+	    <instance>default</instance>
+	</interface>
+    </hal>
+
+-->
+<!--	
+    <hal format="hidl">
+        <name>vendor.lenovo.hardware.mcu</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMcu</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+-->
+ <hal format="hidl">
+        <name>vendor.lenovo.hardware.mcu</name>
+        <transport>hwbinder</transport>
+	<fqname>@1.0::IMcu/default</fqname>
+</hal>
+</manifest>
